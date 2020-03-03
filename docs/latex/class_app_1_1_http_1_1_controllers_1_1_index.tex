@@ -1,0 +1,70 @@
+\hypertarget{class_app_1_1_http_1_1_controllers_1_1_index}{}\doxysection{Index Class Reference}
+\label{class_app_1_1_http_1_1_controllers_1_1_index}\index{Index@{Index}}
+Inheritance diagram for Index\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_app_1_1_http_1_1_controllers_1_1_index}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_index_a679c0208ff191e658d7bee7636fd741d}{destacados}} ()
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_index_a295a00a62e312222098e2a752bf191dc}{categorias\+Especifica}} (\$categorias)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_index_aff3f80966a5c81238774b62d5a56b5b5}{ver\+Producto}} (\$categoria, \$producto)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_index_a295a00a62e312222098e2a752bf191dc}\label{class_app_1_1_http_1_1_controllers_1_1_index_a295a00a62e312222098e2a752bf191dc}} 
+\index{Index@{Index}!categoriasEspecifica@{categoriasEspecifica}}
+\index{categoriasEspecifica@{categoriasEspecifica}!Index@{Index}}
+\doxysubsubsection{\texorpdfstring{categoriasEspecifica()}{categoriasEspecifica()}}
+{\footnotesize\ttfamily categorias\+Especifica (\begin{DoxyParamCaption}\item[{}]{\$categorias }\end{DoxyParamCaption})}
+
+Esta funcion sirve para ver los productos de una categoria especifica, en el caso de que el usuario introduzca una categoria que no existe/este oculta dara un error 404
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{[}int\mbox{]}} & \$categorias \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_index_a679c0208ff191e658d7bee7636fd741d}\label{class_app_1_1_http_1_1_controllers_1_1_index_a679c0208ff191e658d7bee7636fd741d}} 
+\index{Index@{Index}!destacados@{destacados}}
+\index{destacados@{destacados}!Index@{Index}}
+\doxysubsubsection{\texorpdfstring{destacados()}{destacados()}}
+{\footnotesize\ttfamily destacados (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Saco la informacion de la base de datos sobre los productos destacados, las categorias disponilbles para hacer un navbar, y los productos destacados por fecha Ademas, hago una peticion por api rest a una pagina para obtener los datos de geolocalizacion de donde entra el usuario
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_index_aff3f80966a5c81238774b62d5a56b5b5}\label{class_app_1_1_http_1_1_controllers_1_1_index_aff3f80966a5c81238774b62d5a56b5b5}} 
+\index{Index@{Index}!verProducto@{verProducto}}
+\index{verProducto@{verProducto}!Index@{Index}}
+\doxysubsubsection{\texorpdfstring{verProducto()}{verProducto()}}
+{\footnotesize\ttfamily ver\+Producto (\begin{DoxyParamCaption}\item[{}]{\$categoria,  }\item[{}]{\$producto }\end{DoxyParamCaption})}
+
+Extraigo de la base de datos la informacion de un producto en especifico para proceder a la funcion de compras
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{[}int\mbox{]}} & \$categoria \\
+\hline
+{\em \mbox{[}int\mbox{]}} & \$producto \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+app/\+Http/\+Controllers/Index.\+php\end{DoxyCompactItemize}

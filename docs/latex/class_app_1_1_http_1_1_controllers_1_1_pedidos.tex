@@ -1,0 +1,120 @@
+\hypertarget{class_app_1_1_http_1_1_controllers_1_1_pedidos}{}\doxysection{Pedidos Class Reference}
+\label{class_app_1_1_http_1_1_controllers_1_1_pedidos}\index{Pedidos@{Pedidos}}
+Inheritance diagram for Pedidos\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_app_1_1_http_1_1_controllers_1_1_pedidos}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_pedidos_ab7b46c4b2a6668063aac7e517711ae2c}{pedido}} ()
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_pedidos_aaf7267df4caabe4ce102ac5e52e33761}{pdf}} ()
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_pedidos_aac00c87b2a0bef779d092beeb2935ad3}{insertar\+Pedido}} ()
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_pedidos_a488758f92df14d3552980578b1942914}{quitar\+Stock}} ()
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_pedidos_a12468029772222f086c250993816db77}{ver}} ()
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_pedidos_add460096704afe7d119b9b1ea5a3db89}{anular}} (\$id)
+\item 
+\mbox{\hyperlink{class_app_1_1_http_1_1_controllers_1_1_pedidos_abd3cbf7026b57138f531d9cc6d7fe7fa}{print\+\_\+pdf}} (\$id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_pedidos_add460096704afe7d119b9b1ea5a3db89}\label{class_app_1_1_http_1_1_controllers_1_1_pedidos_add460096704afe7d119b9b1ea5a3db89}} 
+\index{Pedidos@{Pedidos}!anular@{anular}}
+\index{anular@{anular}!Pedidos@{Pedidos}}
+\doxysubsubsection{\texorpdfstring{anular()}{anular()}}
+{\footnotesize\ttfamily anular (\begin{DoxyParamCaption}\item[{}]{\$id }\end{DoxyParamCaption})}
+
+Funcion que permite anular un pedido
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{[}int\mbox{]}} & \$id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_pedidos_aac00c87b2a0bef779d092beeb2935ad3}\label{class_app_1_1_http_1_1_controllers_1_1_pedidos_aac00c87b2a0bef779d092beeb2935ad3}} 
+\index{Pedidos@{Pedidos}!insertarPedido@{insertarPedido}}
+\index{insertarPedido@{insertarPedido}!Pedidos@{Pedidos}}
+\doxysubsubsection{\texorpdfstring{insertarPedido()}{insertarPedido()}}
+{\footnotesize\ttfamily insertar\+Pedido (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funcion que inserta un pedido en la base de datos
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_pedidos_aaf7267df4caabe4ce102ac5e52e33761}\label{class_app_1_1_http_1_1_controllers_1_1_pedidos_aaf7267df4caabe4ce102ac5e52e33761}} 
+\index{Pedidos@{Pedidos}!pdf@{pdf}}
+\index{pdf@{pdf}!Pedidos@{Pedidos}}
+\doxysubsubsection{\texorpdfstring{pdf()}{pdf()}}
+{\footnotesize\ttfamily pdf (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funcion que manda un pdf por correo con los datos del pedido a su usuario
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_pedidos_ab7b46c4b2a6668063aac7e517711ae2c}\label{class_app_1_1_http_1_1_controllers_1_1_pedidos_ab7b46c4b2a6668063aac7e517711ae2c}} 
+\index{Pedidos@{Pedidos}!pedido@{pedido}}
+\index{pedido@{pedido}!Pedidos@{Pedidos}}
+\doxysubsubsection{\texorpdfstring{pedido()}{pedido()}}
+{\footnotesize\ttfamily pedido (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funcion que devuelve los datos del carro para revisar el pedido
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_pedidos_abd3cbf7026b57138f531d9cc6d7fe7fa}\label{class_app_1_1_http_1_1_controllers_1_1_pedidos_abd3cbf7026b57138f531d9cc6d7fe7fa}} 
+\index{Pedidos@{Pedidos}!print\_pdf@{print\_pdf}}
+\index{print\_pdf@{print\_pdf}!Pedidos@{Pedidos}}
+\doxysubsubsection{\texorpdfstring{print\_pdf()}{print\_pdf()}}
+{\footnotesize\ttfamily print\+\_\+pdf (\begin{DoxyParamCaption}\item[{}]{\$id }\end{DoxyParamCaption})}
+
+Funcion que imprime un pdf de un pedido en concreto
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{[}int\mbox{]}} & \$id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_pedidos_a488758f92df14d3552980578b1942914}\label{class_app_1_1_http_1_1_controllers_1_1_pedidos_a488758f92df14d3552980578b1942914}} 
+\index{Pedidos@{Pedidos}!quitarStock@{quitarStock}}
+\index{quitarStock@{quitarStock}!Pedidos@{Pedidos}}
+\doxysubsubsection{\texorpdfstring{quitarStock()}{quitarStock()}}
+{\footnotesize\ttfamily quitar\+Stock (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funcion que quita el stock de un producto una vez una compra es realizada
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_app_1_1_http_1_1_controllers_1_1_pedidos_a12468029772222f086c250993816db77}\label{class_app_1_1_http_1_1_controllers_1_1_pedidos_a12468029772222f086c250993816db77}} 
+\index{Pedidos@{Pedidos}!ver@{ver}}
+\index{ver@{ver}!Pedidos@{Pedidos}}
+\doxysubsubsection{\texorpdfstring{ver()}{ver()}}
+{\footnotesize\ttfamily ver (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funcion que muestra todos los pedidos de ese usuario
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+app/\+Http/\+Controllers/Pedidos.\+php\end{DoxyCompactItemize}
